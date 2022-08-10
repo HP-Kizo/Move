@@ -13,4 +13,5 @@ function move() {
   let pos2 = Math.trunc(Math.random() * 400) + 10;
   btnDanger.style.left = pos + "px";
   btnDanger.style.bottom = pos2 + "px";
+  btnDanger.textContent = "Lêu lêu. Đố bắt được, ko bắt được làm chó";
 }
